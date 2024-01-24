@@ -11,6 +11,11 @@ Description : A simple HTML file.
 <html>
 <head>
     <title>Comprehensive HTML Page</title>
+    <meta charset="UTF-8">
+    <meta name ="description" content ="An HTML example with img tags" >
+    <meta name ="keywords" content ="HTML, Web Development, Example, img" >
+    <meta name="author" content ="Sam Laquerre & Robert Meyer">
+    <link rel="shortcut icon " href="favicon.ico" type ="image/x-icon">
 	<!--Copy and paste remaining tags of the head section from images.html file.-->
 </head>
 <body>
@@ -31,7 +36,7 @@ Description : A simple HTML file.
         <article>
             <h2>Article Title</h2>
 			
-			<p>This is a paragraph in an article section. It demonstrates text formatting, like bold, italic, and marked text.</p>
+			<p>This is a paragraph in an article section. It demonstrates text formatting, like <b>bold</b>, <i>italic</i>, and <mark>marked text</mark>.</p>
 			<!-- To emphasize specific words in the paragraph, apply appropriate HTML tags: 
 			<strong> or <b> for bold text, 
 			<em> or <i> for italic text, and
@@ -52,12 +57,23 @@ Description : A simple HTML file.
         <ol>
             <li>First item</li>
             <li>Second item</li>
+            <ol>
+                <li>Sub-First item</li>
+                <li>Sub-Second item</li>    
+                <li>Sub-Third item</li>
+            </ol>
 			<!--Make a sub-ordered list here-->
             <li>Third item</li>
         </ol>
         <p>Unordered List:</p>
         <ul>
             <li>Bullet item</li>
+                <ul>
+                    <li>Sub-bullet item</li>
+                    <li>Sub-bullet item</li>    
+                    <li>Sub-bullet item</li>
+                </ul>
+
 			<!--Make a sub-unordered list here-->
             <li>Another bullet item</li>
             <li>Yet another bullet item</li>
